@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+
+
+.header
+{
+	
+	min-height: 200px;
+	background-color: red;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+	
+	font:25pt 'Gloria Hallelujah';
+    color:rgba(255,255,255,0.7);
+    text-shadow:0 0 4px rgba(255,255,255,0.6);
+	
+	background: none;
+}
+
+.mainName
+{
+	font-size: 50pt;
+}
+
+.contactDetails
+{
+	
+	min-height: 150px;
+	background-color: red;
+	margin-bottom: 20px;
+	
+	font:15pt 'Gloria Hallelujah';
+    color:rgba(255,255,255,0.7);
+    text-shadow:0 0 4px rgba(255,255,255,0.6);
+	
+	padding-left: 10px;
+	
+	background: none;
+
+}
+.workExperience
+{
+	
+	min-height: 500px;
+	background-color: red;
+	margin-bottom: 20px;
+	
+	font:25pt 'Gloria Hallelujah';
+    color:rgba(255,255,255,0.7);
+    text-shadow:0 0 4px rgba(255,255,255,0.6);
+	
+	padding-left: 10px;
+	
+	background: none;
+
+}
+.education
+{
+	
+	min-height: 200px;
+	background-color: red;
+	margin-bottom: 20px;
+	
+	font:25pt 'Gloria Hallelujah';
+    color:rgba(255,255,255,0.7);
+    text-shadow:0 0 4px rgba(255,255,255,0.6);
+
+}
+
+@media screen and (max-width: 480px)
+{
+	.removeOnSmall
+	{
+		display: none;
+	}
+}
+
+.photo
+{
+	
+	min-height: 370px;
+	background-color: red;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+	font:25pt 'Gloria Hallelujah';
+    color:rgba(255,255,255,0.7);
+    text-shadow:0 0 4px rgba(255,255,255,0.6);
+	
+	
+
+}
+
+
+.photo img
+{
+	width: 100%;
+	height: 380px;
+	
+	
+}
+
+.photo:hover
+{
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
+
+
+.personalProfile
+{
+	
+	min-height: 240px;
+	background-color: red;
+	margin-bottom: 20px;
+	
+	font:25pt 'Gloria Hallelujah';
+    color:rgba(255,255,255,0.7);
+    text-shadow:0 0 4px rgba(255,255,255,0.6);
+
+}.keySkills
+{
+	
+	min-height: 240px;
+	background-color: red;
+	margin-bottom: 20px;
+	
+	font:25pt 'Gloria Hallelujah';
+    color:rgba(255,255,255,0.7);
+    text-shadow:0 0 4px rgba(255,255,255,0.6);;
+
+}.references
+{
+	
+	min-height: 200px;
+	background-color: red;
+	margin-bottom: 20px;
+	
+	font:25pt 'Gloria Hallelujah';
+    color:rgba(255,255,255,0.7);
+    text-shadow:0 0 4px rgba(255,255,255,0.6);
+
+}
+
+body
+{
+	background:url("chalkboard.jpg");
+	background-size:cover;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
