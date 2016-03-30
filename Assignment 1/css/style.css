@@ -1,12 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 
 
-
 .header
 {
 	
 	min-height: 200px;
-	background-color: red;
+	background: none;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	text-align: center;
@@ -14,8 +13,6 @@
 	font:25pt 'Gloria Hallelujah';
     color:rgba(255,255,255,0.7);
     text-shadow:0 0 4px rgba(255,255,255,0.6);
-	
-	background: none;
 }
 
 .mainName
@@ -26,43 +23,51 @@
 .contactDetails
 {
 	
-	min-height: 150px;
-	background-color: red;
+	min-height: 100px;
+	background: none;
 	margin-bottom: 20px;
 	
-	font:15pt 'Gloria Hallelujah';
+	font:7pt 'Gloria Hallelujah';
     color:rgba(255,255,255,0.7);
     text-shadow:0 0 4px rgba(255,255,255,0.6);
 	
 	padding-left: 10px;
-	
-	background: none;
+	text-align: center;
+
 
 }
+
+.contactDetails:hover
+{
+        -webkit-transform: scale(1.8);
+        -ms-transform: scale(1.8);
+        transform: scale(1.8);
+		
+}
+
 .workExperience
 {
 	
 	min-height: 500px;
-	background-color: red;
-	margin-bottom: 20px;
+	background: none;
+	margin-bottom: 40px;
 	
-	font:25pt 'Gloria Hallelujah';
+	font:10pt 'Gloria Hallelujah';
     color:rgba(255,255,255,0.7);
     text-shadow:0 0 4px rgba(255,255,255,0.6);
 	
 	padding-left: 10px;
-	
-	background: none;
+
 
 }
 .education
 {
 	
 	min-height: 200px;
-	background-color: red;
+	background: none;
 	margin-bottom: 20px;
 	
-	font:25pt 'Gloria Hallelujah';
+	font:15pt 'Gloria Hallelujah';
     color:rgba(255,255,255,0.7);
     text-shadow:0 0 4px rgba(255,255,255,0.6);
 
@@ -80,54 +85,63 @@
 {
 	
 	min-height: 370px;
-	background-color: red;
+	background-color: none;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	text-align: center;
 	
 	font:25pt 'Gloria Hallelujah';
     color:rgba(255,255,255,0.7);
     text-shadow:0 0 4px rgba(255,255,255,0.6);
 	
+
 	
 
+}
+
+@keyframes animateBorder {
+  to {
+    outline-color: #606060;
+    box-shadow: 0 0 0 6px grey;
+  }
 }
 
 
 .photo img
 {
-	width: 100%;
-	height: 380px;
+	width: 65%;
+	height: 340px;
+	
+	outline: 6px dashed grey;
+    box-shadow: 0 0 0 6px #606060;
+	animation: 1s animateBorder infinite;
 	
 	
 }
 
-.photo:hover
-{
-        -webkit-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-        transform: scale(1.5);
-}
+
+
 
 
 .personalProfile
 {
 	
 	min-height: 240px;
-	background-color: red;
+	background: none;
 	margin-bottom: 20px;
 	
-	font:25pt 'Gloria Hallelujah';
+	font:15pt 'Gloria Hallelujah';
     color:rgba(255,255,255,0.7);
     text-shadow:0 0 4px rgba(255,255,255,0.6);
 
 }.keySkills
 {
 	
-	min-height: 240px;
-	background-color: red;
+	min-height: 170px;
+	background: none;
 	margin-bottom: 20px;
 	
-	font:25pt 'Gloria Hallelujah';
+	font:15pt 'Gloria Hallelujah';
     color:rgba(255,255,255,0.7);
     text-shadow:0 0 4px rgba(255,255,255,0.6);;
 
@@ -135,13 +149,22 @@
 {
 	
 	min-height: 200px;
-	background-color: red;
+	background: none;
 	margin-bottom: 20px;
 	
-	font:25pt 'Gloria Hallelujah';
+	font:10pt 'Gloria Hallelujah';
     color:rgba(255,255,255,0.7);
     text-shadow:0 0 4px rgba(255,255,255,0.6);
 
+}
+
+.references:hover
+{
+        -webkit-transform: scale(1.8);
+        -ms-transform: scale(1.8);
+        transform: scale(1.8);
+		background-color: grey;
+		background-color:rgba(128,128,128,0.5);
 }
 
 body
